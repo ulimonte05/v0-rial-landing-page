@@ -6,7 +6,7 @@ import { DualPhoneShowcase } from "@/components/dual-phone-showcase"
 function AppleLogo({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
-      <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2.156-.169-3.831 1.067-4.829 1.067zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.247-1.273 3.579 1.336.104 2.715-.688 3.559-1.567" />
+      <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.74 1.18 0 2.45-1.62 4.37-1.62 1.03.06 2.2.45 3 1.38-3 1.78-2.37 5.3.23 6.43-.62 1.92-1.68 3.96-2.68 6.04zm-4.14-13.3c.55-1.88 2.41-3.09 4.22-3.12.24 2.21-1.93 4.34-4.22 3.12z" />
     </svg>
   )
 }
@@ -40,11 +40,11 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl font-bold text-white md:text-7xl tracking-tighter drop-shadow-lg">
-            Protecting reality in the age of AI.
+            By Humans for Humans
           </h1>
 
           <p className="mx-auto max-w-2xl text-xl font-medium text-white/80 leading-relaxed">
-            The Global Image Verifier. Authenticity verified at the sensor level.
+            The Global Image Verifier. Authenticity verified at the sensor level. Protecting reality in the age of AI.
           </p>
 
           <div className="flex flex-col items-center space-y-12 w-full pt-4">
@@ -68,10 +68,12 @@ export default function Home() {
       {/* Problem Statement Section */}
       <section id="mission" className="container mx-auto px-6 py-20">
         <div className="mx-auto max-w-4xl space-y-10 rounded-2xl border border-white/10 bg-black/40 p-8 backdrop-blur-md">
-          <h2 className="text-3xl font-bold">If it's rial., it can't be fake.</h2>
+          <h2 className="text-3xl font-bold">Quit the Social Network. Join the Truth.</h2>
+          <p className="text-xl font-medium text-white/80">Worldwide Real & No-AI Photos.</p>
 
           <p className="max-w-3xl text-lg leading-relaxed text-neutral-200 drop-shadow-md">
-            In a world where synthetic content has become the norm, we can no longer trust what we see. Rial is about restoring trust in images, empowering content creators with instant credibility, and giving everyone the power to verify in real-time whether content is authentic or AI-generated. Lets get back control of visual truth.
+            Rial isn't about likes, follows, or influencers. It's about one thing: is it real? We provide the
+            infrastructure to verify reality in a world of synthetic media.
           </p>
         </div>
       </section>
@@ -80,7 +82,7 @@ export default function Home() {
       <section id="features" className="container mx-auto px-6 py-20">
         <div className="mx-auto max-w-6xl space-y-12">
           <div className="space-y-4 text-center md:text-left">
-            <h2 className="text-4xl font-bold tracking-tight">How rial. works</h2>
+            <h2 className="text-4xl font-bold tracking-tight">How Rial Works</h2>
             <p className="text-lg text-neutral-400">
               Advanced verification technology that guarantees image authenticity from capture to display.
             </p>
@@ -122,7 +124,8 @@ export default function Home() {
                 <h3 className="text-xl font-semibold">Worldwide Verification Network</h3>
               </div>
               <p className="text-neutral-200 leading-relaxed">
-                You can verify worldwide photos. Whether it's a breaking news event or a remote landscape, if it was taken with rial, you can prove its authenticity in seconds, creating a global trust layer for visual content.
+                You can verify worldwide photos. Whether it's a breaking news event or a remote landscape, Rial confirms
+                its authenticity in seconds, creating a global trust layer for visual content.
               </p>
               <div className="pt-2 space-y-2 text-sm text-neutral-400">
                 <div className="flex items-center gap-2">
@@ -204,10 +207,12 @@ export default function Home() {
           </h2>
           <div className="space-y-6 text-lg text-neutral-200 leading-relaxed">
             <p className="text-lg">
-              We're building more than a verification platform—we're creating a movement. Every fake image erodes public trust. Every deepfake threatens democracy. Every synthetic face undermines human connection.
+              We're building more than a verification platform—we're creating a movement. Every fake image erodes public
+              trust. Every deepfake threatens democracy. Every synthetic face undermines human connection.
             </p>
             <p className="text-lg">
-              Rial is the antidote. A global platform where authenticity is guaranteed, truth is verifiable, and reality is protected. Join us in preserving what's real in an increasingly synthetic world.
+              Rial is the antidote. A global network where authenticity is guaranteed, truth is verifiable, and reality
+              is protected. Join us in preserving what's real in an increasingly synthetic world.
             </p>
           </div>
         </div>
@@ -217,7 +222,7 @@ export default function Home() {
       <section className="container mx-auto px-6 py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-t from-pink-500/10 to-transparent pointer-events-none" />
         <div className="relative mx-auto max-w-4xl space-y-10 text-center">
-          <h2 className="text-5xl font-bold text-balance drop-shadow-xl">Try it, for rial.</h2>
+          <h2 className="text-5xl font-bold text-balance drop-shadow-xl">Get Early Access to the Truth</h2>
           <p className="text-xl text-neutral-300 text-balance">
             Be among the first to join the verified image revolution. Limited beta spots available.
           </p>
